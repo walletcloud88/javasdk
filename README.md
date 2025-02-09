@@ -1,5 +1,20 @@
 ### maven包安装
 ```
+    <repositories>
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/walletcloud88/javasdk</url>
+        </repository>
+    </repositories>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>com.wallet.api</groupId>
+            <artifactId>javasdk</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
 ```
 
 ### 基础参数配置
